@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  align-items: center;
 }
 
 .App-logo {
@@ -35,4 +36,26 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+h1, h3{
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  padding-left: 20pt;
+}
+
+table {
+  padding: 10px;
+  border-radius: 5%;
+}
+th{
+  background-color: #acb4c3;
+  padding: 10px;
+  border-radius: 5%;
+}
+tr{
+  background-color: #ebedf1;
+  padding: 10px;
+  text-align: center;
+  border-radius: 5%;
 }
